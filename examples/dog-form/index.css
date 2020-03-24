@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(to right, rgb(237, 33, 58), rgb(147, 41, 30));
+}
+form{
+    background: linear-gradient(to right, rgb(253, 200, 48), rgb(243, 115, 53));
+    max-width: 400px;
+    max-height: 500px;
+    min-height: 400px;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    border-radius: 3px;
+}
+.container{
+    display: grid;
+    text-align: center;
+    border-radius: 5px;
+}
+
+img{
+    width: 30%;
+}
+.dog-name, .dog-age{
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+input{
+    width: 80%;
+    font-size: large;
+    border-radius: 3px;
+}
+button, button:disabled{
+    margin-top: 20px;
+    padding: 2% 30% 2% 30%;
+    font-size: large;
+    border-radius: 3px;
+    background: linear-gradient(to right, rgb(237, 33, 58), rgb(147, 41, 30));
+    color: #FFF;
+}
+a{
+    color: #FFF;
+}
+.link-dog{
+    margin-top:20px;
+}
