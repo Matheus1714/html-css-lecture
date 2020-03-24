@@ -1,0 +1,28 @@
+:root{
+    --screen-color:linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    --width-box: 400px;
+    --height-box: 700px;
+}
+*{
+    color:#FFF;
+    flex:auto;
+    text-align: center;
+}
+body{
+    background:var(--screen-color);
+    align-items: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 25%);
+    max-width: var(--width-box);
+    max-height: var(--height-box);
+}
+.container{
+    display: grid;
+    max-width: var(--width-box);
+    max-height: var(--height-box);
+    background: linear-gradient(to right, rgb(189, 195, 199), rgb(44, 62, 80));
+    text-align: center;
+    border-radius: 5px;
+}
