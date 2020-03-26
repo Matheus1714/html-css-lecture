@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+.box{
+    background-color: brown;
+    padding: 20px;
+}
+.header{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 10% auto;
+    background-color: cadetblue;
+}
+.img-profile{
+    background-color: burlywood;
+    padding: 10px
+}
+.footer{
+    grid-column: 1/3;
+    background-color: chocolate;
+}
+.sidebar{
+    display: grid;
+    grid-template-columns: auto;
+}
+img{
+    width: 100%;
+}
+.box .box{
+    grid-column: 1;
+    background-color: chartreuse;
+}

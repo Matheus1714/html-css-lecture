@@ -1,0 +1,13 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: movimentFuction 5s infinite;
+    animation-play-state: initial;
+}
+
+@keyframes movimentFuction {
+    from {left: 0px;}
+    to {left: 200px;}
+}
