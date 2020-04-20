@@ -1,6 +1,6 @@
 # Button Actions
 
-![](img/button-actions.PNG)
+![](gif/button.gif)
 
 ## Description
 

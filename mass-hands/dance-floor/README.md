@@ -1,6 +1,6 @@
 # Dance Floor
 
-![](img/dance-floor.PNG)
+![](gif/dance.gif)
 
 ## Description
 
